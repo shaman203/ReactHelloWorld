@@ -1,0 +1,10 @@
+FROM ubuntu:latest
+
+WORKDIR /app
+COPY ./client /app
+
+RUN apt-get update
+RUN apt-get install curl -y
+RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - && apt-get install nodejs -y
+RUN npm install webpack html-webpack-plugin --save-dev 
+CMD node_modules/.bin/webpack --watch --watch-polling --display-error-details

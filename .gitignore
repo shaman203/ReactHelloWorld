@@ -1,0 +1,10 @@
+tmp/
+node_modules
+public/bundles
+.DS_Store
+npm-debug.log
+.env
+*.sublime-*
+web/db.db
+client/coverage
+app/react_starter_dev

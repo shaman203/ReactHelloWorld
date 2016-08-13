@@ -1,0 +1,13 @@
+{
+  "name": "react-Hello",
+  "version": "1.0.0",
+  "description": "React hello",
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC",
+  "private": true,
+"devDependencies": {
+    "html-webpack-plugin": "^2.20.0",
+    "webpack": "^1.12.9"
+  }
+}
